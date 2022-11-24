@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      </head>
+<link rel="stylesheet" href="styles.css">
+
+  <body>
+   <h1 id="title">Tell me about yourself</h1>   
+    <p id="description">Let's get to know each other</p>
+   
+   <form id="survey-form">
+     <fieldset><label id="name-label">What is your name: </label><input id="name" type="text" placeholder="Enter your name" required></input></fieldset>
+     <fieldset><label id="email-label">What is your email: </label><input id="email" type="email" placeholder="Enter your email" required></input></fieldset>
+     <fieldset><label id="number-label">What is your age: </label><input id="number" type="number" min="1" max="120" placeholder="Enter your age"></input></fieldset>
+
+    <fieldset>
+      <p>Do you have any kids?</p>  
+       <select id="dropdown">
+         <option>Yes</option>
+         <option>No</option>
+       </select>
+    </fieldset>
+
+   <fieldset>
+     <div>
+      <p>Which house-pet do you prefer?</p> 
+       <label>Dog</label><input type="radio" name="pet" value="dog" align="left"></input>
+       <label>Cat</label><input type="radio" name="pet" value="cat"></input>
+     </div>
+    </fieldset> 
+
+   <fieldset id="games"><p>Videogames you like. You can select multiple.
+     <div>
+       <label>Legend of Zelda</label><input type="checkbox" value="1"></input>
+       <label>League of Legends</label><input type="checkbox" value="2"></input>
+       <label>Cyberpunk 2077</label><input type="checkbox" value="3"></input>
+       <label>Borderlands</label><input type="checkbox" value="4"></input>
+       <label>Deadspace</label><input type="checkbox" value="5"></input>
+       <label>None</label><input type="checkbox" value="6"></input>
+     </div>
+    </fieldset>
+
+    <fieldset>
+     <div>
+       <textarea>Anything else you would like say?</textarea>
+     </div>
+     </fieldset>
+
+<br></br>
+    
+     <div>
+       <input type="submit" id="submit"></input>
+    </div>
+     
+   </form>  
+     
+     
+  </body>
+</html>
